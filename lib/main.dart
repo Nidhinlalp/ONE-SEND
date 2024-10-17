@@ -47,11 +47,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Spacer(flex: 1),
+            const Spacer(flex: 1),
             Container(
               padding: const EdgeInsets.all(10),
               width: 400,
-              child: Text(
+              child: const Text(
                 '"One Send" is an open-source project aimed at creating a global platform for easy and secure file sharing. ',
                 style: TextStyle(
                   color: Colors.white,
@@ -59,14 +59,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
-            Spacer(),
+            const Spacer(),
             Container(
               width: 400,
               decoration: BoxDecoration(
                 color: Colors.blueGrey[900],
               ),
               padding: const EdgeInsets.all(10),
-              child: Text(
+              child: const Text(
                 " its goal is to allow users to send and receive files seamlessly across Android, iOS, Windows, and Linux devices. With cross-platform support, 'One Send' will ensure users can share files effortlessly, no matter what device or operating system they are using.",
                 style: TextStyle(
                   color: Colors.white,
@@ -74,11 +74,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Container(
               padding: const EdgeInsets.all(10),
               color: Colors.blueAccent,
-              child: Text(
+              child: const Text(
                 "Let's get started!",
                 style: TextStyle(
                   color: Colors.white,
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
-            Spacer(flex: 1),
+            const Spacer(flex: 1),
           ],
         ),
       ),
